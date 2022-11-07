@@ -1,0 +1,14 @@
+<div class="input-container">
+  <input
+    [(ngModel)]="filterString"
+    class="input-field icon"
+    type="text"
+    placeholder="Search for fruits"
+  />
+</div>
+
+<div class="product-container">
+  <div *ngFor="let fruit of fruits | filter: filterString">
+    <app-product [product]="fruit"></app-product>
+  </div>
+</div>

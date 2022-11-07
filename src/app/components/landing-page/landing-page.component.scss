@@ -1,0 +1,24 @@
+.container {
+  min-height: 85vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.btn {
+  width: 50%;
+  height: 5rem;
+  padding: 0;
+  margin: 0.7% 0;
+  color: #fff;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(to right, #f7931e, #ef4036);
+  font-size: larger;
+  font-weight: 900;
+}
+button:focus,
+button:active {
+  border-style: outset;
+  outline: none;
+}

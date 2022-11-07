@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-field {
+  border: thin solid rgb(172, 169, 169);
+  margin: 3% auto;
+  width: 50%;
+  text-indent: 10%;
+  padding: 0.3rem 0;
+}
+input:focus {
+  outline: none;
+}
+.icon {
+  background: url("../../../assets/img/search.png")
+    no-repeat left;
+  background-size: 20px;
+  background-position: 2%;
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding-bottom: 35px;
+  margin-left: 5%;
+}
